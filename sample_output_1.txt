@@ -1,0 +1,517 @@
+---------------------------------------------------------------------------------------
+PARAMETERS:
+eps = 2
+eB = 239
+num_faults = 8
+loop_abort_rows = [(1,None),(2,235),(4,231),(8,223),(16,207),(32,175),(64,112),(127,0),(239,None)]
+delta_it = 7
+
+
+key = 9719
+
+The OUTPUT below is for the above parameters.
+---------------------------------------------------------------------------------------
+
+
+Fault 1 : Aborting after 1 iterations
+Fault 2 : Aborting after 2 iterations
+Fault 3 : Aborting after 4 iterations
+Fault 4 : Aborting after 8 iterations
+Fault 5 : Aborting after 16 iterations
+Fault 6 : Aborting after 32 iterations
+Fault 7 : Aborting after 64 iterations
+Fault 8 : Aborting after 127 iterations
+Loop aborts complete.
+
+Computation for Fault 2:
+  Evaluating phi_3
+  Evaluating phi_4
+Computation for Fault 3:
+  Evaluating phi_5
+  Evaluating phi_6
+  Evaluating phi_7
+  Evaluating phi_8
+Computation for Fault 4:
+  Evaluating phi_9
+  Evaluating phi_10
+  Evaluating phi_11
+  Evaluating phi_12
+  Evaluating phi_13
+  Evaluating phi_14
+  Evaluating phi_15
+  Evaluating phi_16
+Computation for Fault 5:
+  Evaluating phi_17
+  Evaluating phi_18
+  Evaluating phi_19
+  Evaluating phi_20
+  Evaluating phi_21
+  Evaluating phi_22
+  Evaluating phi_23
+  Evaluating phi_24
+  Evaluating phi_25
+  Evaluating phi_26
+  Evaluating phi_27
+  Evaluating phi_28
+  Evaluating phi_29
+  Evaluating phi_30
+  Evaluating phi_31
+  Evaluating phi_32
+Computation for Fault 6:
+  Evaluating phi_33
+  Evaluating phi_34
+  Evaluating phi_35
+  Evaluating phi_36
+  Evaluating phi_37
+  Evaluating phi_38
+  Evaluating phi_39
+  Evaluating phi_40
+  Evaluating phi_41
+  Evaluating phi_42
+  Evaluating phi_43
+  Evaluating phi_44
+  Evaluating phi_45
+  Evaluating phi_46
+  Evaluating phi_47
+  Evaluating phi_48
+  Evaluating phi_49
+  Evaluating phi_50
+  Evaluating phi_51
+  Evaluating phi_52
+  Evaluating phi_53
+  Evaluating phi_54
+  Evaluating phi_55
+  Evaluating phi_56
+  Evaluating phi_57
+  Evaluating phi_58
+  Evaluating phi_59
+  Evaluating phi_60
+  Evaluating phi_61
+  Evaluating phi_62
+  Evaluating phi_63
+  Evaluating phi_64
+Computation for Fault 7:
+  Evaluating phi_65
+  Evaluating phi_66
+  Evaluating phi_67
+  Evaluating phi_68
+  Evaluating phi_69
+  Evaluating phi_70
+  Evaluating phi_71
+  Evaluating phi_72
+  Evaluating phi_73
+  Evaluating phi_74
+  Evaluating phi_75
+  Evaluating phi_76
+  Evaluating phi_77
+  Evaluating phi_78
+  Evaluating phi_79
+  Evaluating phi_80
+  Evaluating phi_81
+  Evaluating phi_82
+  Evaluating phi_83
+  Evaluating phi_84
+  Evaluating phi_85
+  Evaluating phi_86
+  Evaluating phi_87
+  Evaluating phi_88
+  Evaluating phi_89
+  Evaluating phi_90
+  Evaluating phi_91
+  Evaluating phi_92
+  Evaluating phi_93
+  Evaluating phi_94
+  Evaluating phi_95
+  Evaluating phi_96
+  Evaluating phi_97
+  Evaluating phi_98
+  Evaluating phi_99
+  Evaluating phi_100
+  Evaluating phi_101
+  Evaluating phi_102
+  Evaluating phi_103
+  Evaluating phi_104
+  Evaluating phi_105
+  Evaluating phi_106
+  Evaluating phi_107
+  Evaluating phi_108
+  Evaluating phi_109
+  Evaluating phi_110
+  Evaluating phi_111
+  Evaluating phi_112
+  Evaluating phi_113
+  Evaluating phi_114
+  Evaluating phi_115
+  Evaluating phi_116
+  Evaluating phi_117
+  Evaluating phi_118
+  Evaluating phi_119
+  Evaluating phi_120
+  Evaluating phi_121
+  Evaluating phi_122
+  Evaluating phi_123
+  Evaluating phi_124
+  Evaluating phi_125
+  Evaluating phi_126
+  Evaluating phi_127
+Computation for Fault 8:
+  Evaluating phi_128
+  Evaluating phi_129
+  Evaluating phi_130
+  Evaluating phi_131
+  Evaluating phi_132
+  Evaluating phi_133
+  Evaluating phi_134
+  Evaluating phi_135
+  Evaluating phi_136
+  Evaluating phi_137
+  Evaluating phi_138
+  Evaluating phi_139
+  Evaluating phi_140
+  Evaluating phi_141
+  Evaluating phi_142
+  Evaluating phi_143
+  Evaluating phi_144
+  Evaluating phi_145
+  Evaluating phi_146
+  Evaluating phi_147
+  Evaluating phi_148
+  Evaluating phi_149
+  Evaluating phi_150
+  Evaluating phi_151
+  Evaluating phi_152
+  Evaluating phi_153
+  Evaluating phi_154
+  Evaluating phi_155
+  Evaluating phi_156
+  Evaluating phi_157
+  Evaluating phi_158
+  Evaluating phi_159
+  Evaluating phi_160
+  Evaluating phi_161
+  Evaluating phi_162
+  Evaluating phi_163
+  Evaluating phi_164
+  Evaluating phi_165
+  Evaluating phi_166
+  Evaluating phi_167
+  Evaluating phi_168
+  Evaluating phi_169
+  Evaluating phi_170
+  Evaluating phi_171
+  Evaluating phi_172
+  Evaluating phi_173
+  Evaluating phi_174
+  Evaluating phi_175
+  Evaluating phi_176
+  Evaluating phi_177
+  Evaluating phi_178
+  Evaluating phi_179
+  Evaluating phi_180
+  Evaluating phi_181
+  Evaluating phi_182
+  Evaluating phi_183
+  Evaluating phi_184
+  Evaluating phi_185
+  Evaluating phi_186
+  Evaluating phi_187
+  Evaluating phi_188
+  Evaluating phi_189
+  Evaluating phi_190
+  Evaluating phi_191
+  Evaluating phi_192
+  Evaluating phi_193
+  Evaluating phi_194
+  Evaluating phi_195
+  Evaluating phi_196
+  Evaluating phi_197
+  Evaluating phi_198
+  Evaluating phi_199
+  Evaluating phi_200
+  Evaluating phi_201
+  Evaluating phi_202
+  Evaluating phi_203
+  Evaluating phi_204
+  Evaluating phi_205
+  Evaluating phi_206
+  Evaluating phi_207
+  Evaluating phi_208
+  Evaluating phi_209
+  Evaluating phi_210
+  Evaluating phi_211
+  Evaluating phi_212
+  Evaluating phi_213
+  Evaluating phi_214
+  Evaluating phi_215
+  Evaluating phi_216
+  Evaluating phi_217
+  Evaluating phi_218
+  Evaluating phi_219
+  Evaluating phi_220
+  Evaluating phi_221
+  Evaluating phi_222
+  Evaluating phi_223
+  Evaluating phi_224
+  Evaluating phi_225
+  Evaluating phi_226
+  Evaluating phi_227
+  Evaluating phi_228
+  Evaluating phi_229
+  Evaluating phi_230
+  Evaluating phi_231
+  Evaluating phi_232
+  Evaluating phi_233
+  Evaluating phi_234
+  Evaluating phi_235
+  Evaluating phi_236
+  Evaluating phi_237
+  Evaluating phi_238
+  Evaluating phi_239
+Computation of isogenies and kernel gen points complete.
+
+Starting Brute Force search for k_B (mod 3**2)
+Successful. k_B (mod 3**2) = 8
+
+Computing rest of kB:
+  Timer : 00:00:09 | found kB[3] = 2 | kB (mod 3**3) = 26
+  Timer : 00:00:19 | found kB[4] = 2 | kB (mod 3**4) = 80
+  Timer : 00:00:30 | found kB[5] = 2 | kB (mod 3**5) = 242
+  Timer : 00:00:37 | found kB[6] = 0 | kB (mod 3**6) = 242
+  Timer : 00:00:45 | found kB[7] = 1 | kB (mod 3**7) = 971
+  Timer : 00:00:53 | found kB[8] = 1 | kB (mod 3**8) = 3158
+  Timer : 00:01:01 | found kB[9] = 1 | kB (mod 3**9) = 9719
+  Timer : 00:01:08 | found kB[10] = 0 | kB (mod 3**10) = 9719
+  Timer : 00:01:15 | found kB[11] = 0 | kB (mod 3**11) = 9719
+  Timer : 00:01:22 | found kB[12] = 0 | kB (mod 3**12) = 9719
+  Timer : 00:01:29 | found kB[13] = 0 | kB (mod 3**13) = 9719
+  Timer : 00:01:36 | found kB[14] = 0 | kB (mod 3**14) = 9719
+  Timer : 00:01:42 | found kB[15] = 0 | kB (mod 3**15) = 9719
+  Timer : 00:01:49 | found kB[16] = 0 | kB (mod 3**16) = 9719
+  Timer : 00:01:56 | found kB[17] = 0 | kB (mod 3**17) = 9719
+  Timer : 00:02:03 | found kB[18] = 0 | kB (mod 3**18) = 9719
+  Timer : 00:02:10 | found kB[19] = 0 | kB (mod 3**19) = 9719
+  Timer : 00:02:17 | found kB[20] = 0 | kB (mod 3**20) = 9719
+  Timer : 00:02:23 | found kB[21] = 0 | kB (mod 3**21) = 9719
+  Timer : 00:02:30 | found kB[22] = 0 | kB (mod 3**22) = 9719
+  Timer : 00:02:37 | found kB[23] = 0 | kB (mod 3**23) = 9719
+  Timer : 00:02:43 | found kB[24] = 0 | kB (mod 3**24) = 9719
+  Timer : 00:02:50 | found kB[25] = 0 | kB (mod 3**25) = 9719
+  Timer : 00:02:56 | found kB[26] = 0 | kB (mod 3**26) = 9719
+  Timer : 00:03:03 | found kB[27] = 0 | kB (mod 3**27) = 9719
+  Timer : 00:03:10 | found kB[28] = 0 | kB (mod 3**28) = 9719
+  Timer : 00:03:16 | found kB[29] = 0 | kB (mod 3**29) = 9719
+  Timer : 00:03:23 | found kB[30] = 0 | kB (mod 3**30) = 9719
+  Timer : 00:03:29 | found kB[31] = 0 | kB (mod 3**31) = 9719
+  Timer : 00:03:36 | found kB[32] = 0 | kB (mod 3**32) = 9719
+  Timer : 00:03:42 | found kB[33] = 0 | kB (mod 3**33) = 9719
+  Timer : 00:03:49 | found kB[34] = 0 | kB (mod 3**34) = 9719
+  Timer : 00:03:55 | found kB[35] = 0 | kB (mod 3**35) = 9719
+  Timer : 00:04:01 | found kB[36] = 0 | kB (mod 3**36) = 9719
+  Timer : 00:04:08 | found kB[37] = 0 | kB (mod 3**37) = 9719
+  Timer : 00:04:14 | found kB[38] = 0 | kB (mod 3**38) = 9719
+  Timer : 00:04:20 | found kB[39] = 0 | kB (mod 3**39) = 9719
+  Timer : 00:04:27 | found kB[40] = 0 | kB (mod 3**40) = 9719
+  Timer : 00:04:33 | found kB[41] = 0 | kB (mod 3**41) = 9719
+  Timer : 00:04:39 | found kB[42] = 0 | kB (mod 3**42) = 9719
+  Timer : 00:04:46 | found kB[43] = 0 | kB (mod 3**43) = 9719
+  Timer : 00:04:53 | found kB[44] = 0 | kB (mod 3**44) = 9719
+  Timer : 00:05:00 | found kB[45] = 0 | kB (mod 3**45) = 9719
+  Timer : 00:05:07 | found kB[46] = 0 | kB (mod 3**46) = 9719
+  Timer : 00:05:13 | found kB[47] = 0 | kB (mod 3**47) = 9719
+  Timer : 00:05:20 | found kB[48] = 0 | kB (mod 3**48) = 9719
+  Timer : 00:05:27 | found kB[49] = 0 | kB (mod 3**49) = 9719
+  Timer : 00:05:33 | found kB[50] = 0 | kB (mod 3**50) = 9719
+  Timer : 00:05:40 | found kB[51] = 0 | kB (mod 3**51) = 9719
+  Timer : 00:05:47 | found kB[52] = 0 | kB (mod 3**52) = 9719
+  Timer : 00:05:53 | found kB[53] = 0 | kB (mod 3**53) = 9719
+  Timer : 00:05:59 | found kB[54] = 0 | kB (mod 3**54) = 9719
+  Timer : 00:06:05 | found kB[55] = 0 | kB (mod 3**55) = 9719
+  Timer : 00:06:12 | found kB[56] = 0 | kB (mod 3**56) = 9719
+  Timer : 00:06:18 | found kB[57] = 0 | kB (mod 3**57) = 9719
+  Timer : 00:06:25 | found kB[58] = 0 | kB (mod 3**58) = 9719
+  Timer : 00:06:31 | found kB[59] = 0 | kB (mod 3**59) = 9719
+  Timer : 00:06:38 | found kB[60] = 0 | kB (mod 3**60) = 9719
+  Timer : 00:06:45 | found kB[61] = 0 | kB (mod 3**61) = 9719
+  Timer : 00:06:51 | found kB[62] = 0 | kB (mod 3**62) = 9719
+  Timer : 00:06:57 | found kB[63] = 0 | kB (mod 3**63) = 9719
+  Timer : 00:07:03 | found kB[64] = 0 | kB (mod 3**64) = 9719
+  Timer : 00:07:10 | found kB[65] = 0 | kB (mod 3**65) = 9719
+  Timer : 00:07:15 | found kB[66] = 0 | kB (mod 3**66) = 9719
+  Timer : 00:07:21 | found kB[67] = 0 | kB (mod 3**67) = 9719
+  Timer : 00:07:27 | found kB[68] = 0 | kB (mod 3**68) = 9719
+  Timer : 00:07:33 | found kB[69] = 0 | kB (mod 3**69) = 9719
+  Timer : 00:07:40 | found kB[70] = 0 | kB (mod 3**70) = 9719
+  Timer : 00:07:46 | found kB[71] = 0 | kB (mod 3**71) = 9719
+  Timer : 00:07:52 | found kB[72] = 0 | kB (mod 3**72) = 9719
+  Timer : 00:07:58 | found kB[73] = 0 | kB (mod 3**73) = 9719
+  Timer : 00:08:03 | found kB[74] = 0 | kB (mod 3**74) = 9719
+  Timer : 00:08:09 | found kB[75] = 0 | kB (mod 3**75) = 9719
+  Timer : 00:08:15 | found kB[76] = 0 | kB (mod 3**76) = 9719
+  Timer : 00:08:21 | found kB[77] = 0 | kB (mod 3**77) = 9719
+  Timer : 00:08:27 | found kB[78] = 0 | kB (mod 3**78) = 9719
+  Timer : 00:08:33 | found kB[79] = 0 | kB (mod 3**79) = 9719
+  Timer : 00:08:38 | found kB[80] = 0 | kB (mod 3**80) = 9719
+  Timer : 00:08:44 | found kB[81] = 0 | kB (mod 3**81) = 9719
+  Timer : 00:08:50 | found kB[82] = 0 | kB (mod 3**82) = 9719
+  Timer : 00:08:55 | found kB[83] = 0 | kB (mod 3**83) = 9719
+  Timer : 00:09:01 | found kB[84] = 0 | kB (mod 3**84) = 9719
+  Timer : 00:09:06 | found kB[85] = 0 | kB (mod 3**85) = 9719
+  Timer : 00:09:12 | found kB[86] = 0 | kB (mod 3**86) = 9719
+  Timer : 00:09:17 | found kB[87] = 0 | kB (mod 3**87) = 9719
+  Timer : 00:09:23 | found kB[88] = 0 | kB (mod 3**88) = 9719
+  Timer : 00:09:29 | found kB[89] = 0 | kB (mod 3**89) = 9719
+  Timer : 00:09:34 | found kB[90] = 0 | kB (mod 3**90) = 9719
+  Timer : 00:09:41 | found kB[91] = 0 | kB (mod 3**91) = 9719
+  Timer : 00:09:47 | found kB[92] = 0 | kB (mod 3**92) = 9719
+  Timer : 00:09:53 | found kB[93] = 0 | kB (mod 3**93) = 9719
+  Timer : 00:09:58 | found kB[94] = 0 | kB (mod 3**94) = 9719
+  Timer : 00:10:04 | found kB[95] = 0 | kB (mod 3**95) = 9719
+  Timer : 00:10:10 | found kB[96] = 0 | kB (mod 3**96) = 9719
+  Timer : 00:10:15 | found kB[97] = 0 | kB (mod 3**97) = 9719
+  Timer : 00:10:21 | found kB[98] = 0 | kB (mod 3**98) = 9719
+  Timer : 00:10:26 | found kB[99] = 0 | kB (mod 3**99) = 9719
+  Timer : 00:10:32 | found kB[100] = 0 | kB (mod 3**100) = 9719
+  Timer : 00:10:37 | found kB[101] = 0 | kB (mod 3**101) = 9719
+  Timer : 00:10:43 | found kB[102] = 0 | kB (mod 3**102) = 9719
+  Timer : 00:10:49 | found kB[103] = 0 | kB (mod 3**103) = 9719
+  Timer : 00:10:54 | found kB[104] = 0 | kB (mod 3**104) = 9719
+  Timer : 00:10:59 | found kB[105] = 0 | kB (mod 3**105) = 9719
+  Timer : 00:11:04 | found kB[106] = 0 | kB (mod 3**106) = 9719
+  Timer : 00:11:09 | found kB[107] = 0 | kB (mod 3**107) = 9719
+  Timer : 00:11:14 | found kB[108] = 0 | kB (mod 3**108) = 9719
+  Timer : 00:11:19 | found kB[109] = 0 | kB (mod 3**109) = 9719
+  Timer : 00:11:24 | found kB[110] = 0 | kB (mod 3**110) = 9719
+  Timer : 00:11:29 | found kB[111] = 0 | kB (mod 3**111) = 9719
+  Timer : 00:11:34 | found kB[112] = 0 | kB (mod 3**112) = 9719
+  Timer : 00:11:39 | found kB[113] = 0 | kB (mod 3**113) = 9719
+  Timer : 00:11:43 | found kB[114] = 0 | kB (mod 3**114) = 9719
+  Timer : 00:11:49 | found kB[115] = 0 | kB (mod 3**115) = 9719
+  Timer : 00:11:53 | found kB[116] = 0 | kB (mod 3**116) = 9719
+  Timer : 00:11:58 | found kB[117] = 0 | kB (mod 3**117) = 9719
+  Timer : 00:12:04 | found kB[118] = 0 | kB (mod 3**118) = 9719
+  Timer : 00:12:09 | found kB[119] = 0 | kB (mod 3**119) = 9719
+  Timer : 00:12:14 | found kB[120] = 0 | kB (mod 3**120) = 9719
+  Timer : 00:12:19 | found kB[121] = 0 | kB (mod 3**121) = 9719
+  Timer : 00:12:24 | found kB[122] = 0 | kB (mod 3**122) = 9719
+  Timer : 00:12:30 | found kB[123] = 0 | kB (mod 3**123) = 9719
+  Timer : 00:12:34 | found kB[124] = 0 | kB (mod 3**124) = 9719
+  Timer : 00:12:39 | found kB[125] = 0 | kB (mod 3**125) = 9719
+  Timer : 00:12:45 | found kB[126] = 0 | kB (mod 3**126) = 9719
+  Timer : 00:12:50 | found kB[127] = 0 | kB (mod 3**127) = 9719
+  Timer : 00:12:54 | found kB[128] = 0 | kB (mod 3**128) = 9719
+  Timer : 00:13:00 | found kB[129] = 0 | kB (mod 3**129) = 9719
+  Timer : 00:13:05 | found kB[130] = 0 | kB (mod 3**130) = 9719
+  Timer : 00:13:10 | found kB[131] = 0 | kB (mod 3**131) = 9719
+  Timer : 00:13:15 | found kB[132] = 0 | kB (mod 3**132) = 9719
+  Timer : 00:13:19 | found kB[133] = 0 | kB (mod 3**133) = 9719
+  Timer : 00:13:25 | found kB[134] = 0 | kB (mod 3**134) = 9719
+  Timer : 00:13:30 | found kB[135] = 0 | kB (mod 3**135) = 9719
+  Timer : 00:13:34 | found kB[136] = 0 | kB (mod 3**136) = 9719
+  Timer : 00:13:39 | found kB[137] = 0 | kB (mod 3**137) = 9719
+  Timer : 00:13:44 | found kB[138] = 0 | kB (mod 3**138) = 9719
+  Timer : 00:13:49 | found kB[139] = 0 | kB (mod 3**139) = 9719
+  Timer : 00:13:53 | found kB[140] = 0 | kB (mod 3**140) = 9719
+  Timer : 00:13:58 | found kB[141] = 0 | kB (mod 3**141) = 9719
+  Timer : 00:14:03 | found kB[142] = 0 | kB (mod 3**142) = 9719
+  Timer : 00:14:08 | found kB[143] = 0 | kB (mod 3**143) = 9719
+  Timer : 00:14:13 | found kB[144] = 0 | kB (mod 3**144) = 9719
+  Timer : 00:14:17 | found kB[145] = 0 | kB (mod 3**145) = 9719
+  Timer : 00:14:22 | found kB[146] = 0 | kB (mod 3**146) = 9719
+  Timer : 00:14:26 | found kB[147] = 0 | kB (mod 3**147) = 9719
+  Timer : 00:14:31 | found kB[148] = 0 | kB (mod 3**148) = 9719
+  Timer : 00:14:36 | found kB[149] = 0 | kB (mod 3**149) = 9719
+  Timer : 00:14:40 | found kB[150] = 0 | kB (mod 3**150) = 9719
+  Timer : 00:14:45 | found kB[151] = 0 | kB (mod 3**151) = 9719
+  Timer : 00:14:50 | found kB[152] = 0 | kB (mod 3**152) = 9719
+  Timer : 00:14:54 | found kB[153] = 0 | kB (mod 3**153) = 9719
+  Timer : 00:14:58 | found kB[154] = 0 | kB (mod 3**154) = 9719
+  Timer : 00:15:03 | found kB[155] = 0 | kB (mod 3**155) = 9719
+  Timer : 00:15:07 | found kB[156] = 0 | kB (mod 3**156) = 9719
+  Timer : 00:15:12 | found kB[157] = 0 | kB (mod 3**157) = 9719
+  Timer : 00:15:16 | found kB[158] = 0 | kB (mod 3**158) = 9719
+  Timer : 00:15:20 | found kB[159] = 0 | kB (mod 3**159) = 9719
+  Timer : 00:15:25 | found kB[160] = 0 | kB (mod 3**160) = 9719
+  Timer : 00:15:29 | found kB[161] = 0 | kB (mod 3**161) = 9719
+  Timer : 00:15:34 | found kB[162] = 0 | kB (mod 3**162) = 9719
+  Timer : 00:15:38 | found kB[163] = 0 | kB (mod 3**163) = 9719
+  Timer : 00:15:43 | found kB[164] = 0 | kB (mod 3**164) = 9719
+  Timer : 00:15:47 | found kB[165] = 0 | kB (mod 3**165) = 9719
+  Timer : 00:15:51 | found kB[166] = 0 | kB (mod 3**166) = 9719
+  Timer : 00:15:55 | found kB[167] = 0 | kB (mod 3**167) = 9719
+  Timer : 00:15:59 | found kB[168] = 0 | kB (mod 3**168) = 9719
+  Timer : 00:16:03 | found kB[169] = 0 | kB (mod 3**169) = 9719
+  Timer : 00:16:08 | found kB[170] = 0 | kB (mod 3**170) = 9719
+  Timer : 00:16:12 | found kB[171] = 0 | kB (mod 3**171) = 9719
+  Timer : 00:16:16 | found kB[172] = 0 | kB (mod 3**172) = 9719
+  Timer : 00:16:21 | found kB[173] = 0 | kB (mod 3**173) = 9719
+  Timer : 00:16:25 | found kB[174] = 0 | kB (mod 3**174) = 9719
+  Timer : 00:16:29 | found kB[175] = 0 | kB (mod 3**175) = 9719
+  Timer : 00:16:33 | found kB[176] = 0 | kB (mod 3**176) = 9719
+  Timer : 00:16:36 | found kB[177] = 0 | kB (mod 3**177) = 9719
+  Timer : 00:16:40 | found kB[178] = 0 | kB (mod 3**178) = 9719
+  Timer : 00:16:44 | found kB[179] = 0 | kB (mod 3**179) = 9719
+  Timer : 00:16:47 | found kB[180] = 0 | kB (mod 3**180) = 9719
+  Timer : 00:16:51 | found kB[181] = 0 | kB (mod 3**181) = 9719
+  Timer : 00:16:55 | found kB[182] = 0 | kB (mod 3**182) = 9719
+  Timer : 00:16:58 | found kB[183] = 0 | kB (mod 3**183) = 9719
+  Timer : 00:17:02 | found kB[184] = 0 | kB (mod 3**184) = 9719
+  Timer : 00:17:05 | found kB[185] = 0 | kB (mod 3**185) = 9719
+  Timer : 00:17:09 | found kB[186] = 0 | kB (mod 3**186) = 9719
+  Timer : 00:17:12 | found kB[187] = 0 | kB (mod 3**187) = 9719
+  Timer : 00:17:16 | found kB[188] = 0 | kB (mod 3**188) = 9719
+  Timer : 00:17:19 | found kB[189] = 0 | kB (mod 3**189) = 9719
+  Timer : 00:17:23 | found kB[190] = 0 | kB (mod 3**190) = 9719
+  Timer : 00:17:26 | found kB[191] = 0 | kB (mod 3**191) = 9719
+  Timer : 00:17:30 | found kB[192] = 0 | kB (mod 3**192) = 9719
+  Timer : 00:17:33 | found kB[193] = 0 | kB (mod 3**193) = 9719
+  Timer : 00:17:37 | found kB[194] = 0 | kB (mod 3**194) = 9719
+  Timer : 00:17:40 | found kB[195] = 0 | kB (mod 3**195) = 9719
+  Timer : 00:17:43 | found kB[196] = 0 | kB (mod 3**196) = 9719
+  Timer : 00:17:47 | found kB[197] = 0 | kB (mod 3**197) = 9719
+  Timer : 00:17:50 | found kB[198] = 0 | kB (mod 3**198) = 9719
+  Timer : 00:17:53 | found kB[199] = 0 | kB (mod 3**199) = 9719
+  Timer : 00:17:57 | found kB[200] = 0 | kB (mod 3**200) = 9719
+  Timer : 00:18:00 | found kB[201] = 0 | kB (mod 3**201) = 9719
+  Timer : 00:18:03 | found kB[202] = 0 | kB (mod 3**202) = 9719
+  Timer : 00:18:06 | found kB[203] = 0 | kB (mod 3**203) = 9719
+  Timer : 00:18:10 | found kB[204] = 0 | kB (mod 3**204) = 9719
+  Timer : 00:18:13 | found kB[205] = 0 | kB (mod 3**205) = 9719
+  Timer : 00:18:16 | found kB[206] = 0 | kB (mod 3**206) = 9719
+  Timer : 00:18:19 | found kB[207] = 0 | kB (mod 3**207) = 9719
+  Timer : 00:18:22 | found kB[208] = 0 | kB (mod 3**208) = 9719
+  Timer : 00:18:25 | found kB[209] = 0 | kB (mod 3**209) = 9719
+  Timer : 00:18:28 | found kB[210] = 0 | kB (mod 3**210) = 9719
+  Timer : 00:18:31 | found kB[211] = 0 | kB (mod 3**211) = 9719
+  Timer : 00:18:35 | found kB[212] = 0 | kB (mod 3**212) = 9719
+  Timer : 00:18:38 | found kB[213] = 0 | kB (mod 3**213) = 9719
+  Timer : 00:18:40 | found kB[214] = 0 | kB (mod 3**214) = 9719
+  Timer : 00:18:43 | found kB[215] = 0 | kB (mod 3**215) = 9719
+  Timer : 00:18:47 | found kB[216] = 0 | kB (mod 3**216) = 9719
+  Timer : 00:18:51 | found kB[217] = 0 | kB (mod 3**217) = 9719
+  Timer : 00:18:54 | found kB[218] = 0 | kB (mod 3**218) = 9719
+  Timer : 00:18:58 | found kB[219] = 0 | kB (mod 3**219) = 9719
+  Timer : 00:19:01 | found kB[220] = 0 | kB (mod 3**220) = 9719
+  Timer : 00:19:04 | found kB[221] = 0 | kB (mod 3**221) = 9719
+  Timer : 00:19:06 | found kB[222] = 0 | kB (mod 3**222) = 9719
+  Timer : 00:19:09 | found kB[223] = 0 | kB (mod 3**223) = 9719
+  Timer : 00:19:12 | found kB[224] = 0 | kB (mod 3**224) = 9719
+  Timer : 00:19:16 | found kB[225] = 0 | kB (mod 3**225) = 9719
+  Timer : 00:19:19 | found kB[226] = 0 | kB (mod 3**226) = 9719
+  Timer : 00:19:22 | found kB[227] = 0 | kB (mod 3**227) = 9719
+  Timer : 00:19:25 | found kB[228] = 0 | kB (mod 3**228) = 9719
+  Timer : 00:19:28 | found kB[229] = 0 | kB (mod 3**229) = 9719
+  Timer : 00:19:30 | found kB[230] = 0 | kB (mod 3**230) = 9719
+  Timer : 00:19:33 | found kB[231] = 0 | kB (mod 3**231) = 9719
+  Timer : 00:19:36 | found kB[232] = 0 | kB (mod 3**232) = 9719
+  Timer : 00:19:39 | found kB[233] = 0 | kB (mod 3**233) = 9719
+  Timer : 00:19:42 | found kB[234] = 0 | kB (mod 3**234) = 9719
+  Timer : 00:19:45 | found kB[235] = 0 | kB (mod 3**235) = 9719
+  Timer : 00:19:47 | found kB[236] = 0 | kB (mod 3**236) = 9719
+  Timer : 00:19:50 | found kB[237] = 0 | kB (mod 3**237) = 9719
+  Timer : 00:19:53 | found kB[238] = 0 | kB (mod 3**238) = 9719
+  Timer : 00:19:55 | found kB[239] = 0 | kB (mod 3**239) = 9719
+Computation of kB complete.
+
+Fault Attack is complete. kB (mod 3**239)= 9719
+
+[Finished in 1302.3s]
